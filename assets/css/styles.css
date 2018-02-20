@@ -1,0 +1,79 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 10px 20px;
+}
+
+#main-bg {
+	background: url('../images/main/car.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 93.50vh; 
+}
+
+.table-cars th, .table-cars td {
+    text-align: center;
+}
+
+input[type=checkbox].css-checkbox {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+input[type=checkbox].css-checkbox+label.css-label {
+	padding-left: 35px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 30px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input[type=checkbox].css-checkbox:checked+label.css-label {
+	background-position: 0 -30px;
+}
+
+label.css-label {
+	background-image: url('../images/icons/checkbox.png');
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.icon-edit, .cancel-edit {
+	cursor: pointer;
+}
+
+.tr-edit {
+	display: none;
+}
+
+.invalid-feedback {
+	display: none;
+}
+
+#profile-image {
+	width: 256px;
+	height: 256px;
+	border-radius: 100%;
+}
+
+#main-progress {
+	display: none;
+}
